@@ -1,0 +1,22 @@
+.card-content {
+    padding: 10px;
+    border: 1pt solid black;
+}
+
+.card-content:nth-child(odd) {
+    background-color: #7C7484;
+  }
+.card-content:nth-child(even) {
+    background-color: #B1A8B9;
+}
+  
+  .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .card-location {
+    font-size: 1em;
+    color: #555;
+  }
