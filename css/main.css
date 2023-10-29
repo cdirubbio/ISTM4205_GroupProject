@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+#homeImage {
+    background-image: url('/../imgs/vacation_pic.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+.container {
+    display: flex;
+}
+.row {
+    display: flex;
+}
+#homeAboutText {
+    max-width: 800px;
+    margin: auto;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#homeAboutText h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#homeAboutText p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+#leftOnHome, #rightOnHome {
+    width: 70%;
+    height: 400px;
+    text-align: center;
+    flex: 1;
+    overflow: hidden;
+
+}
+#leftOnHome h3, #rightOnHome h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#leftOnHome p, #rightOnHome p {
+    font-size: 16px;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+#leftOnHome {
+    background-color: #B1A8B9;
+}
+#rightOnHome {
+    background-color: #7C7484;
+}
+
+li.Features {
+    list-style-type: none;
+}
+.Features:before {
+    content: "\2022"; 
+    font-size: 16px;
+    color: #66507f; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.homePic {
+    height: 400px;
+}
+/* .homePicDiv {
+    flex: 1;
+} */
+
+
+#textToAboutUs {
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

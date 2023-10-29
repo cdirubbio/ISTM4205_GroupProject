@@ -15,7 +15,5 @@ Please make sure to update tests as appropriate.
 
 
 COLOR PALLETE
-    #FOFOFO WHITEish
-    #213555 NAVY BLUE
-    #4F709C Lighter Blue
-    #E5D283 Gold/yellow
+    #66507f - Purple, Logo Color
+    
