@@ -1,0 +1,28 @@
+/* Styles for the About Us page */
+body {
+    background-color: #66507F;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+}
+
+
+.about-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #7C7484;
+    border: 2px solid #844A3C;
+}
+
+.team-member {
+    background-color: #7C7484;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.team-member h2 {
+    font-size: 1.5em;
+    color: #66507F;
+}
+
+/* Add more specific styles for other elements if needed */

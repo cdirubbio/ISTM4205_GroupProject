@@ -210,54 +210,64 @@ var data = {
 // @return List of activity objects to be displayed as horizontal cards on screen.
 function searchActivitiesLocation(query) {
   var resultsList = [];
+  query = query.toLowerCase();
   // Loop through data, searching for a match in Location
   for (const activity of data.activities) {
-    if (activity.activityLocation.includes(query.toLowerCase())) {
+    let lowercaseLocation = activity.activityLocation.toLowerCase();
+    if (lowercaseLocation.includes(query)) {
       resultsList.push(activity);
-      console.log(activity.activityLocation);
+      console.log("Activity Pushed");
     }
   }
   // @return list of objects of activities
   return resultsList;
-}
+};
 // Function that loops through all activities and returns list of
 // activities matching the @param query.
 // @param query The keyword we are searching for
 // @return List of activity objects to be displayed as horizontal cards on screen.
 function searchActivitiesKW(query) {
     var resultsList = [];
+    query = query.toLowerCase();
     // Loop through data, searching for a match in keyword
     for (const activity of data.activities) {
-      if (activity.activityKeywords.includes(query.toLowerCase())) {
+      let kw = activity.activityKeywords
+      if (kw.includes(query)) {
         resultsList.push(activity);
-        console.log(activity);
+        console.log("activity pushed KW");
       }
     }
     // @return list of objects of activities
     return resultsList;
-  }
+};
 
 
-// Store HTML elements of results container, Location Search container, and 
+// Store HTML elements of results container, Location Search container, keyword search container and 
 // submit button as vars
 const searchBoxLocation = document.getElementById("searchBoxLocation");
+const searchBoxKW = document.getElementById("searchBoxKW");
+const searchButton = document.getElementById("submitSearch");
 const resultsContainer = document.getElementById("resultsContainer");
-const searchButton = document.getElementById("submitSearch")
 
 // Add even listener to check for input in searchBoxLocation text input
 // @param keyup Checks for key input, causes callBack function
 // @param function() The Callback function to execute on keyup. Used to
 // display results of search 
 searchButton.addEventListener('click', function () {
-  const query = searchBoxLocation.value;
-  const searchResultsLocation = searchActivitiesLocation(query);
+  // queries in both search bars
+  const locationQuery = searchBoxLocation.value;
+  const keywordQuery = searchBoxKW.value;
+
+  const searchResultsLocation = searchActivitiesLocation(locationQuery);
+  const searchResultsKW = searchActivitiesKW(keywordQuery);
+  // intersection of KW search and location search
+  const trueResults = searchResultsKW.filter(x  => searchResultsLocation.includes(x));
   const resultsContainer = document.getElementById("resultsContainer");
   resultsContainer.innerHTML = "";
+  console.log(trueResults);
 
-//   const resultCountContainer = document.getElementById("resultCountContainer")
-//   resultCountContainer.appendChild(`The search ${query} returned ${searchResultsLocation.length} results.`);
   // Loop through list of matches
-  for (const obj of searchResultsLocation){
+  for (const obj of trueResults){
     // Create div for each
     let cardElement = document.createElement("div");
     cardElement.classList.add("card");
