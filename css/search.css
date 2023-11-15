@@ -32,6 +32,7 @@ input[type="button"]:hover {
   background-color: #7c6f92; /* A lighter shade for hover effect */
 }
 
+
 #resultCountContainer {
   margin-top: 20px;
   font-size: 18px;
@@ -52,8 +53,18 @@ input[type="button"]:hover {
 
 .card-content {
   transition: box-shadow 0.3s ease;
+  padding: 20px;
 }
-
+.activTitle {
+  color:#66507f;
+}
+.locationC {
+  color:#7C7484;
+}
+.card-content a {
+  text-decoration: none;
+  color:#66507f;
+}
 
 @media screen and (max-width: 768px) {
   input[type="text"], input[type="button"] {
