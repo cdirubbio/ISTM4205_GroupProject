@@ -274,9 +274,10 @@ searchButton.addEventListener('click', function () {
     // Create card content using obj
     cardElement.innerHTML = `
             <div class="card-content">
-                <div class="card-title">${obj.activityName}</div>
-                <div class="card-location">${obj.activityLocation}</div>
-                <div class="card-link">${obj.linkToActivity}</div>
+                <div class="card-title"><h3 class="activTitle">${obj.activityName}</h3></div>
+                <div class="card-location"><h4 class="locationC">${obj.activityLocation}</h4></div>
+                <div class="card-link"><a href="${obj.linkToActivity}">${obj.linkToActivity}</div>
+                <input type="button" id="bookNow" value="Book Now!"onclick="window.location.href="${obj.linkToActivity}" />
             </div>`;
     resultsContainer.appendChild(cardElement); 
   }
