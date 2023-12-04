@@ -1,10 +1,10 @@
 
 /* Anthony Minder code */
 body {
-    background-color: #66507F; /*Dark background for better readability */
+    background-color: #66507F; /*Dark background */
     color: #fff; /* Light text for contrast */
     font-family: 'Arial', sans-serif;
-    line-height: 1.6; /* Improve text readability */
+    line-height: 1.6; 
     padding-bottom: 60px; /* Space for footer */
 }
 
@@ -18,16 +18,16 @@ header {
 .navLink {
     color: white;
     text-decoration: none;
-    padding: 0 15px; /* Adjust spacing around links */
+    padding: 0 15px; /* Padded spacing around links */
 }
 
 .navLink:hover {
-    color: #DDD; /* Slightly lighter shade on hover */
+    color: #DDD; /* Lighter shade on hover */
 }
 
 /* Styles for the About Us section */
 .about-section {
-    background-color: #FFF; /* A light background for the section */
+    background-color: #FFF; 
     color: #000;
     margin: 20px;
     padding: 40px;
