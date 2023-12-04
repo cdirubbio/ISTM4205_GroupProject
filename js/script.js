@@ -201,6 +201,342 @@ var data = {
         linkToActivity: "https://www.hawaiitour.com",
         activityKeywords: ["tour", "culture", "history", "adventure"],
       },
+      {
+        "activityID": 26,
+        "activityName": "Beach Volleyball",
+        "activityLocation": "Rio de Janeiro, Brazil",
+        "activityCost": 39.99,
+        "linkToActivity": "https://www.beachvolleybrazil.com",
+        "activityKeywords": ["beach", "volleyball", "sports", "sun"]
+      },
+      {
+        "activityID": 27,
+        "activityName": "Snorkeling Adventure",
+        "activityLocation": "Maui, Hawaii",
+        "activityCost": 59.99,
+        "linkToActivity": "https://www.mauiadventures.com",
+        "activityKeywords": ["beach", "snorkeling", "ocean", "adventure"]
+      },
+      {
+        "activityID": 28,
+        "activityName": "Sandcastle Building",
+        "activityLocation": "Cancun, Mexico",
+        "activityCost": 19.99,
+        "linkToActivity": "https://www.sandcastlecancun.com",
+        "activityKeywords": ["beach", "creative", "family", "fun"]
+      },
+      {
+        "activityID": 29,
+        "activityName": "Beach Yoga",
+        "activityLocation": "Bali, Indonesia",
+        "activityCost": 29.99,
+        "linkToActivity": "https://www.beachyoga-bali.com",
+        "activityKeywords": ["beach", "yoga", "wellness", "mindfulness"]
+      },
+      {
+        "activityID": 30,
+        "activityName": "Surfing Lessons",
+        "activityLocation": "Gold Coast, Australia",
+        "activityCost": 79.99,
+        "linkToActivity": "https://www.surflessons-au.com",
+        "activityKeywords": ["beach", "surfing", "adventure", "water"]
+      },
+      {
+        "activityID": 31,
+        "activityName": "Beach Picnic",
+        "activityLocation": "Santa Monica, California",
+        "activityCost": 34.99,
+        "linkToActivity": "https://www.picnicsantamonica.com",
+        "activityKeywords": ["beach", "picnic", "relaxation", "food"]
+      },
+      {
+        "activityID": 32,
+        "activityName": "Beach Photography Tour",
+        "activityLocation": "Phuket, Thailand",
+        "activityCost": 49.99,
+        "linkToActivity": "https://www.phuketphoto-tour.com",
+        "activityKeywords": ["beach", "photography", "tour", "scenic"]
+      },
+      {
+        "activityID": 33,
+        "activityName": "Beachfront Horseback Riding",
+        "activityLocation": "Barbados",
+        "activityCost": 89.99,
+        "linkToActivity": "https://www.beachhorsebarbados.com",
+        "activityKeywords": ["beach", "horseback riding", "adventure", "nature"]
+      },
+      {
+        "activityID": 34,
+        "activityName": "Beachside Massage",
+        "activityLocation": "Maldives",
+        "activityCost": 69.99,
+        "linkToActivity": "https://www.maldivesmassage.com",
+        "activityKeywords": ["beach", "massage", "wellness", "relaxation"]
+      },
+      {
+        "activityID": 35,
+        "activityName": "Beach Hike",
+        "activityLocation": "Big Sur, California",
+        "activityCost": 44.99,
+        "linkToActivity": "https://www.bigsurhike.com",
+        "activityKeywords": ["beach", "hiking", "nature", "scenic"]
+      },
+      {
+        "activityID": 36,
+        "activityName": "Beachside Cooking Class",
+        "activityLocation": "Santorini, Greece",
+        "activityCost": 59.99,
+        "linkToActivity": "https://www.santorinicooking.com",
+        "activityKeywords": ["beach", "cooking", "culinary", "culture"]
+      },
+      {
+        "activityID": 37,
+        "activityName": "Beach Volleyball Tournament",
+        "activityLocation": "Miami, Florida",
+        "activityCost": 49.99,
+        "linkToActivity": "https://www.miamivolleyball.com",
+        "activityKeywords": ["beach", "volleyball", "competition", "sports"]
+      },
+      {
+        "activityID": 38,
+        "activityName": "Maldives Snorkeling Adventure",
+        "activityLocation": "Maldives",
+        "activityCost": 69.99,
+        "linkToActivity": "https://www.maldivesnorkeladventure.com",
+        "activityKeywords": ["snorkeling", "beach", "ocean", "adventure"]
+      },
+      {
+        "activityID": 39,
+        "activityName": "Maldives Sunset Cruise",
+        "activityLocation": "Maldives",
+        "activityCost": 89.99,
+        "linkToActivity": "https://www.maldivessunsetcruise.com",
+        "activityKeywords": ["sunset", "cruise", "beach", "relaxation"]
+      },
+      {
+        "activityID": 40,
+        "activityName": "Maldives Island Hopping",
+        "activityLocation": "Maldives",
+        "activityCost": 79.99,
+        "linkToActivity": "https://www.maldivesislandhopping.com",
+        "activityKeywords": ["island hopping", "beach", "exploration", "adventure"]
+      },
+      {
+        "activityID": 41,
+        "activityName": "Maldives Underwater Photography",
+        "activityLocation": "Maldives",
+        "activityCost": 99.99,
+        "linkToActivity": "https://www.maldivesunderwaterphoto.com",
+        "activityKeywords": ["underwater", "photography", "beach", "adventure"]
+      },
+      {
+        "activityID": 42,
+        "activityName": "Maldives Dolphin Watching",
+        "activityLocation": "Maldives",
+        "activityCost": 54.99,
+        "linkToActivity": "https://www.maldivesdolphinwatch.com",
+        "activityKeywords": ["dolphin watching", "beach", "ocean", "nature"]
+      },
+      {
+        "activityID": 43,
+        "activityName": "Maldives Beachside Spa Retreat",
+        "activityLocation": "Maldives",
+        "activityCost": 129.99,
+        "linkToActivity": "https://www.maldivessparetreat.com",
+        "activityKeywords": ["spa", "retreat", "beach", "wellness"]
+      },
+      {
+        "activityID": 44,
+        "activityName": "Maldives Fishing Excursion",
+        "activityLocation": "Maldives",
+        "activityCost": 59.99,
+        "linkToActivity": "https://www.maldivesfishing.com",
+        "activityKeywords": ["fishing", "excursion", "beach", "adventure"]
+      },
+      {
+        "activityID": 45,
+        "activityName": "Maldives Romantic Beach Dinner",
+        "activityLocation": "Maldives",
+        "activityCost": 149.99,
+        "linkToActivity": "https://www.maldivesromanticdinner.com",
+        "activityKeywords": ["romantic", "beach", "dinner", "couples"]
+      },
+      {
+        "activityID": 46,
+        "activityName": "Maldives Water Villa Experience",
+        "activityLocation": "Maldives",
+        "activityCost": 199.99,
+        "linkToActivity": "https://www.maldiveswatervilla.com",
+        "activityKeywords": ["water villa", "beach", "luxury", "accommodation"]
+      },
+      {
+        "activityID": 47,
+        "activityName": "Maldives Coral Reef Snorkeling",
+        "activityLocation": "Maldives",
+        "activityCost": 74.99,
+        "linkToActivity": "https://www.maldivescoralreefsnorkel.com",
+        "activityKeywords": ["snorkeling", "coral reef", "beach", "nature"]
+      },
+      {
+        "activityID": 48,
+        "activityName": "Luxury Spa Retreat",
+        "activityLocation": "Bora Bora, French Polynesia",
+        "activityCost": 249.99,
+        "linkToActivity": "https://www.boraboraluxurysparetreat.com",
+        "activityKeywords": ["luxury", "spa", "retreat", "wellness"]
+      },
+      {
+        "activityID": 49,
+        "activityName": "Private Yacht Charter",
+        "activityLocation": "Amalfi Coast, Italy",
+        "activityCost": 499.99,
+        "linkToActivity": "https://www.amalfiyachting.com",
+        "activityKeywords": ["luxury", "yacht", "charter", "cruise"]
+      },
+      {
+        "activityID": 50,
+        "activityName": "Exclusive Wine Tasting",
+        "activityLocation": "Napa Valley, California",
+        "activityCost": 179.99,
+        "linkToActivity": "https://www.napawineexclusives.com",
+        "activityKeywords": ["luxury", "wine tasting", "vineyard", "culinary"]
+      },
+      {
+        "activityID": 51,
+        "activityName": "Five-Star Beachfront Resort",
+        "activityLocation": "Maui, Hawaii",
+        "activityCost": 349.99,
+        "linkToActivity": "https://www.mauiresortluxury.com",
+        "activityKeywords": ["luxury", "resort", "beachfront", "accommodation"]
+      },
+      {
+        "activityID": 52,
+        "activityName": "Helicopter Tour of the Grand Canyon",
+        "activityLocation": "Las Vegas, Nevada",
+        "activityCost": 599.99,
+        "linkToActivity": "https://www.vegashelitours.com",
+        "activityKeywords": ["luxury", "helicopter tour", "adventure", "scenic"]
+      },
+      {
+        "activityID": 53,
+        "activityName": "Gourmet Dinner on a Private Island",
+        "activityLocation": "Seychelles",
+        "activityCost": 399.99,
+        "linkToActivity": "https://www.seychellesgourmetisland.com",
+        "activityKeywords": ["luxury", "gourmet", "dinner", "exclusive"]
+      },
+      {
+        "activityID": 54,
+        "activityName": "Luxe Shopping Experience",
+        "activityLocation": "Paris, France",
+        "activityCost": 299.99,
+        "linkToActivity": "https://www.parisluxeshopping.com",
+        "activityKeywords": ["luxury", "shopping", "experience", "fashion"]
+      },
+      {
+        "activityID": 55,
+        "activityName": "Chalet Stay in the Swiss Alps",
+        "activityLocation": "Zermatt, Switzerland",
+        "activityCost": 449.99,
+        "linkToActivity": "https://www.zermattchalet.com",
+        "activityKeywords": ["luxury", "chalet", "mountain", "accommodation"]
+      },
+      {
+        "activityID": 56,
+        "activityName": "Private Jet Excursion",
+        "activityLocation": "Monaco",
+        "activityCost": 999.99,
+        "linkToActivity": "https://www.monacoprivatejet.com",
+        "activityKeywords": ["luxury", "private jet", "excursion", "travel"]
+      },
+      {
+        "activityID": 57,
+        "activityName": "Luxury Car Driving Experience",
+        "activityLocation": "Maranello, Italy",
+        "activityCost": 299.99,
+        "linkToActivity": "https://www.maranellocarexperience.com",
+        "activityKeywords": ["luxury", "car", "driving", "experience"]
+      },
+      {
+        "activityID": 58,
+        "activityName": "Luxury Cliffside Villa Retreat",
+        "activityLocation": "Amalfi Coast, Italy",
+        "activityCost": 599.99,
+        "linkToActivity": "https://www.amalfivillaretreat.com",
+        "activityKeywords": ["luxury", "villa", "retreat", "accommodation"]
+      },
+      {
+        "activityID": 59,
+        "activityName": "Private Sailing Experience",
+        "activityLocation": "Amalfi Coast, Italy",
+        "activityCost": 699.99,
+        "linkToActivity": "https://www.amalfisailingluxury.com",
+        "activityKeywords": ["luxury", "sailing", "experience", "adventure"]
+      },
+      {
+        "activityID": 60,
+        "activityName": "Michelin-Star Dining Overlooking the Coast",
+        "activityLocation": "Amalfi Coast, Italy",
+        "activityCost": 349.99,
+        "linkToActivity": "https://www.amalfidiningluxury.com",
+        "activityKeywords": ["luxury", "dining", "Michelin-star", "culinary"]
+      },
+      {
+        "activityID": 61,
+        "activityName": "Private Helicopter Tour of Amalfi",
+        "activityLocation": "Amalfi Coast, Italy",
+        "activityCost": 899.99,
+        "linkToActivity": "https://www.amalfihelitour.com",
+        "activityKeywords": ["luxury", "helicopter tour", "scenic", "adventure"]
+      },
+      {
+        "activityID": 62,
+        "activityName": "Exclusive Beachfront Spa Day",
+        "activityLocation": "Amalfi Coast, Italy",
+        "activityCost": 449.99,
+        "linkToActivity": "https://www.amalfispaday.com",
+        "activityKeywords": ["luxury", "spa", "beachfront", "wellness"]
+      },
+      {
+        "activityID": 63,
+        "activityName": "Luxury Yacht Sunset Cruise",
+        "activityLocation": "Amalfi Coast, Italy",
+        "activityCost": 799.99,
+        "linkToActivity": "https://www.amalfiyachtluxury.com",
+        "activityKeywords": ["luxury", "yacht", "sunset cruise", "romantic"]
+      },
+      {
+        "activityID": 64,
+        "activityName": "Private Wine Tasting at a Vineyard",
+        "activityLocation": "Amalfi Coast, Italy",
+        "activityCost": 299.99,
+        "linkToActivity": "https://www.amalfiwineexperience.com",
+        "activityKeywords": ["luxury", "wine tasting", "vineyard", "culinary"]
+      },
+      {
+        "activityID": 65,
+        "activityName": "Luxury Speedboat Tour of Capri",
+        "activityLocation": "Amalfi Coast, Italy",
+        "activityCost": 749.99,
+        "linkToActivity": "https://www.caprispeedboatluxury.com",
+        "activityKeywords": ["luxury", "speedboat tour", "Capri", "adventure"]
+      },
+      {
+        "activityID": 66,
+        "activityName": "Private Cooking Class with Renowned Chef",
+        "activityLocation": "Amalfi Coast, Italy",
+        "activityCost": 499.99,
+        "linkToActivity": "https://www.amalfichefluxury.com",
+        "activityKeywords": ["luxury", "cooking class", "culinary", "experience"]
+      },
+      {
+        "activityID": 67,
+        "activityName": "Luxury Coastal Hike with Personal Guide",
+        "activityLocation": "Amalfi Coast, Italy",
+        "activityCost": 389.99,
+        "linkToActivity": "https://www.amalfihikeluxury.com",
+        "activityKeywords": ["luxury", "coastal hike", "guide", "adventure"]
+      }
     ],
   };
 
@@ -265,6 +601,24 @@ searchButton.addEventListener('click', function () {
   const resultsContainer = document.getElementById("resultsContainer");
   resultsContainer.innerHTML = "";
   console.log(trueResults);
+  if (keywordQuery.length == 0 || keywordQuery == null) {
+    for (const obj of searchResultsLocation){
+      // Create div for each
+      let cardElement = document.createElement("div");
+      cardElement.classList.add("card");
+      // Create card content using obj
+      cardElement.innerHTML = `
+              <div class="card-content">
+                  <div class="card-title"><h3 class="activTitle">${obj.activityName}</h3></div>
+                  <div class="card-location"><h4 class="locationC">${obj.activityLocation}</h4></div>
+                  <div class="card-link"><a href="${obj.linkToActivity}">${obj.linkToActivity}</a></div>
+                  <div class="card-price"><h5 class="activCost">Cost of Activity: $${obj.activityCost} (per person)</h5></div>
+                  <input type="button" id="bookNow" value="Book Now!"onclick="window.location.href="${obj.linkToActivity}" />
+              </div>`;
+      resultsContainer.appendChild(cardElement); 
+    }
+    return;
+  }
 
   // Loop through list of matches
   for (const obj of trueResults){
@@ -276,11 +630,11 @@ searchButton.addEventListener('click', function () {
             <div class="card-content">
                 <div class="card-title"><h3 class="activTitle">${obj.activityName}</h3></div>
                 <div class="card-location"><h4 class="locationC">${obj.activityLocation}</h4></div>
-                <div class="card-link"><a href="${obj.linkToActivity}">${obj.linkToActivity}</div>
+                <div class="card-link"><a href="${obj.linkToActivity}">${obj.linkToActivity}</a></div>
+                <div class="card-price"><h5 class="activCost">Cost of Activity: $${obj.activityCost} (per person)</h5></div>
                 <input type="button" id="bookNow" value="Book Now!"onclick="window.location.href="${obj.linkToActivity}" />
             </div>`;
     resultsContainer.appendChild(cardElement); 
   }
 });
 
-// <img src="${searchResultsLocation[i].activityImage}" alt="${searchResultsLocation[i].activityName}">
