@@ -1,0 +1,82 @@
+
+/* Anthony Minder code */
+body {
+    background-color: #66507F; /*Dark background */
+    color: #fff; /* Light text for contrast */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6; 
+    padding-bottom: 60px; /* Space for footer */
+}
+
+header {
+    background-color: #66507f;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Navigation link styles */
+.navLink {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px; /* Padded spacing around links */
+}
+
+.navLink:hover {
+    color: #DDD; /* Lighter shade on hover */
+}
+
+/* Styles for the About Us section */
+.about-section {
+    background-color: #FFF; 
+    color: #000;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Styles for team member cards */
+.team-member {
+    background-color: #FFF; /* White background for the cards */
+    padding: 20px;
+    margin: 20px auto; /* Centering the cards */
+    max-width: 600px; /* Maximum width of the cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    text-align: left; /* Align text to the left */
+}
+
+.team-member img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circle crop for the images */
+    margin-bottom: 20px; /* Space below images */
+}
+
+.team-member h2 {
+    font-size: 2em; /* Larger font size for names */
+    color: #66507F; /* Theme color for names */
+    margin-top: 0; /* Reduce space above the name */
+}
+
+/* Paragraph styles */
+.team-member p {
+    font-size: 1em; /* Standard font size for text */
+    color: #555; /* Gray color for text for readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+/* Footer styles */
+footer {
+    background-color: #66507f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
